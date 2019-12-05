@@ -6,3 +6,7 @@ export const createLocalLink = url => {
   }
   return url.replace(config.wordPressUrl, ``)
 }
+
+export const createShareableLink = url => {
+  return url.replace(config.wordPressUrl, config.siteUrl)
+}

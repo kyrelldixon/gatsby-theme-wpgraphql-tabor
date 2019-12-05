@@ -8,6 +8,7 @@
  */
 const config = {
   wordPressUrl: `http://wordpress.blacknomadlife.com`,
+  siteUrl: `http://localhost:8000`
 }
 
 module.exports = config
