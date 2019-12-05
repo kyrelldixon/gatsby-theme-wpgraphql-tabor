@@ -2,12 +2,12 @@
   "name": "gatsby-themes",
   "private": true,
   "version": "0.0.1",
+  "license": "MIT",
   "scripts": {
     "develop": "yarn workspace site develop",
     "start": "yarn develop",
     "build": "yarn workspace site build",
-    "serve": "yarn workspace site serve",
-    "publish": "yarn workspace @kyrelldixon/gatsby-theme-wpgraphql publish"
+    "serve": "yarn workspace site serve"
   },
   "workspaces": [
     "site",
