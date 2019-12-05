@@ -6,11 +6,10 @@ const Logo = ({ data }) => (
   <Link to="/" className="custom-logo-link site-logo" rel="home" itemProp="url">
     <img
       src={wpgraphqlLogo}
-      alt="WPGraphQL Logo"
       width="150"
       height="150"
       className="custom-logo initial loaded"
-      alt={data.site.siteMetadata.title}
+      alt={data.site.siteMetadata.title || "WPGraphQL Logo"}
       itemProp="logo"
     />
   </Link>
