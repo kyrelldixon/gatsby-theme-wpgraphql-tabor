@@ -1,6 +1,6 @@
 {
   "name": "@kyrelldixon/gatsby-theme-wpgraphql-tabor",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Gatsby theme for WPGraphQL based on Wordpress Tabor theme",
   "main": "index.js",
   "license": "MIT",
