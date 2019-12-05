@@ -4,6 +4,7 @@ import { createLocalLink } from '../utils';
 import { BodyClass } from 'react-extras';
 import MenuToggle from './MenuToggle';
 
+// TODO: make menuItems location dynamic. Possibly use config
 const MENU_QUERY = graphql`
   fragment MenuFields on WPGraphQL_MenuItem {
     id
@@ -16,7 +17,7 @@ const MENU_QUERY = graphql`
 
   query GET_MENU_ITEMS {
     wpgraphql {
-      menuItems(where: { location: PRIMARY }) {
+      menuItems(where: { location: MENU_1 }) {
         nodes {
           ...MenuFields
           childItems {
