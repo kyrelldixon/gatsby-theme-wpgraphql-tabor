@@ -1,14 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter`,
-    description: `Gatsby starter site `,
-    author: `@alexadark`,
-    wordPressUrl: `http://alexandraspalato.com/tabor`,
+    title: `Gatsby Theme WPGraphQL Tabor Starter`,
+    description: `Gatsby starter site for gatsby-theme-wpgraphql-tabor`,
+    author: `@kyrelldixon`,
   },
-  __experimentalThemes: [
+  plugins: [
     {
-      resolve: 'gatsby-theme-tabor',
-      options: { wordPressUrl: `http://alexandraspalato.com/tabor` },
+      resolve: `gatsby-theme-wpgraphql-tabor`,
+      options: {
+        wordPressUrl: `http://wordpress.blacknomadlife.com`,
+      },
     },
   ],
 };
