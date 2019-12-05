@@ -6,7 +6,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-theme-wpgraphql-tabor`,
+      resolve: `@kyrelldixon/gatsby-theme-wpgraphql-tabor`,
       options: {
         wordPressUrl: `http://wordpress.blacknomadlife.com`,
       },
