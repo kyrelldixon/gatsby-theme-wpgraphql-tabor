@@ -2,6 +2,12 @@
   "name": "gatsby-themes",
   "private": true,
   "version": "1.0.0",
+  "scripts": {
+    "develop": "yarn workspace site develop",
+    "start": "yarn develop",
+    "build": "yarn workspace site build",
+    "serve": "yarn workspace site serve"
+  },
   "workspaces": [
     "site",
     "@kyrelldixon/gatsby-theme-wpgraphql-tabor"
